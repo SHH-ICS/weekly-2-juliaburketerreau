@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
   <head>
-    <title></title>
+    <title>Area and circumference of circles</title>
 
     <!-- MDL Inclusions -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -10,6 +10,18 @@
   </head>
 
   <body>
+    
+    <py-script>
+      print("What is the diameter of the circle?")
+      D = float(input())
+      radius = float(D / 2)
+      A = float((radius ** 2) * 3.14)
+      C = float(2 * 3.14 * radius)
+      print("The area of the circle is:")
+      print(float(A))
+      print("The circumference of the circle is:")
+      print(float(C))
+    </py-script>
   
     <form name="myForm" action="handler.php" method="POST">
           
