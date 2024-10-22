@@ -10,7 +10,7 @@
   <body>
     
     <?php
-    $myVariable = "";
+    $myVariable = "Diameter";
     if ( isset( $_POST['myVariable'] ) ){
       $myVariable = $_POST['myVariable'];
     }
