@@ -1,12 +1,12 @@
-#numbers are slightly different from the tests because I only used 3.14 for pi
+
 print("What is the diameter of the circle?")
 D = float(input())
 radius = float(D / 2)
 import math
 A = float((radius ** 2) * math.pi)
-C = float(2 * 3.14 * radius)
+C = float(2 * math.pi * radius)
 print("The area of the circle is:")
-print(float(A))
+print(float(A), "cm2")
 print("The circumference of the circle is:")
-print(float(C))
+print(float(C), "cm")
 
