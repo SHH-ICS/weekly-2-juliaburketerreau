@@ -57,12 +57,13 @@
       print("What is the diameter of the circle?")
       D = float(input())
       radius = float(D / 2)
-      A = float((radius ** 2) * 3.14)
-      C = float(2 * 3.14 * radius)
+      import math
+      A = float((radius ** 2) * math.pi)
+      C = float(2 * math.pi * radius)
       print("The area of the circle is:")
-      print(float(A))
+      print(float(A), "cm2")
       print("The circumference of the circle is:")
-      print(float(C))
+      print(float(C), "cm")
     </py-script>
   
     <form name="myForm" action="handler.php" method="POST">
